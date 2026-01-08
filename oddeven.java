@@ -10,4 +10,3 @@ public class oddeven {
         }
     }
 }
-//HEllo     ppppppppppppppppppp
