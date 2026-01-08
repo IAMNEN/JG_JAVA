@@ -1,10 +1,22 @@
 import java.util.*;
 
-class userinput {
+class userinput{
     public static void main(String[] args) {
-        System.out.print("Hello Your Name -> ");
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("Nice Name "+name);
+        System.out.println("Enter UserName ->");
+        System.out.println("Enter Password ->");
+        String username = "nen";
+        String password = "nen123";
+        String newusername = sc.nextLine();
+        String newpassword = sc.nextLine();
+
+        if (newpassword.equals(password) && newusername.equals(username)) {
+            System.out.println("Login Successful");
+            System.out.println("Welcome "+username);
+        }
+        else {
+            System.out.println("Login Failed");
+        }
+
     }
 }
