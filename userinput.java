@@ -6,7 +6,7 @@ public class userinput {
 
         System.out.print("Enter your RollNumber: ");
         int rollnumber = sc.nextInt();
-
+        //int -> string then add below line String -> int not requied
         sc.nextLine();
 
         System.out.print("Enter your Name: ");
