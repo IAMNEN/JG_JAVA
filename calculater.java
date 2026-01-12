@@ -21,7 +21,7 @@ public class calculater {
         System.out.println("Division Values: " + (c/d));
 
         System.out.println("Enter E number: ");
-        int e = sc.nextInt();
+        float e = sc.nextFloat();
 
         System.out.println("Modulus Values A and B: " + (a%b));
         System.out.println("Modulus Values C and D: " + (c%d));
