@@ -20,10 +20,12 @@ public class calculater {
         System.out.println("Multiplication Values: " + (c*d));
         System.out.println("Division Values: " + (c/d));
 
-        System.out.println("Enter E number: ");
+        System.out.print("Enter E number: ");
         float e = sc.nextFloat();
+        System.out.print("Enter F number: ");
+        float f = sc.nextFloat();
 
-        System.out.println("Modulus Values A and B: " + (a%b));
-        System.out.println("Modulus Values C and D: " + (c%d));
+        System.out.println("Modulus Values A and B: " + (e%f));
+
     }
 }
