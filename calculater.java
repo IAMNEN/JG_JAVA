@@ -25,7 +25,7 @@ public class calculater {
         System.out.print("Enter F number: ");
         float f = sc.nextFloat();
 
-        System.out.println("Modulus Values A and B: " + (e%f));
+        System.out.println("Modulus Values E and F: " + (e%f));
 
     }
 }

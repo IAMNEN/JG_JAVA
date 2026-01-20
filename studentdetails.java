@@ -13,7 +13,7 @@ public class studentdetails {
         System.out.print("Enter Student ID: ");
         int studentid = sc.nextInt();
 
-        sc.nextLine();
+       sc.nextLine();
 
         System.out.print("Enter Student Name: ");
         String studentname = sc.nextLine();
