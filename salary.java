@@ -29,7 +29,7 @@ public class salary {
         System.out.println("Employee Name: "+ename);
         System.out.println("Department Name: "+depname);
         System.out.println("Joining Date: "+joiningdate);
-        System.out.println("Salary: "+salary);
+        System.out.println("Salary: "+totalsalary);
         System.out.println("You PF: "+pf);
         System.out.println("Gross Salary: "+grossalary);
 
