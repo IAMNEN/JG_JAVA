@@ -1,6 +1,7 @@
 public class constructorex {
     int rollno;
     String name;
+
     constructorex(int r , String n){
         rollno = r;
         name = n;

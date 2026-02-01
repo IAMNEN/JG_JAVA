@@ -5,7 +5,7 @@ public class staticblock {
         System.out.println("Static block");
     }
     {
-        System.out.println("instant block");
+        System.out.println("instant block"); //every next object it will be run
     }
     staticblock(int y){
         System.out.println("Within Parameterized Constructor");

@@ -1,6 +1,6 @@
 public class overloading {
-    double a;
-    double b;
+    double a ;
+    double b ;
     overloading(){
         a = 1.0;
         b = 1.0;
