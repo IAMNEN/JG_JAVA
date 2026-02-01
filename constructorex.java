@@ -1,15 +1,13 @@
 public class constructorex {
-    int roll;
+    int rollno;
     String name;
-
-    constructorex(int r ,String n){
-        roll = r;
+    constructorex(int r , String n){
+        rollno = r;
         name = n;
     }
-
     public static void main(String[] args) {
-        constructorex s1 = new constructorex(1,"I.Am_Nen");
-        System.out.println(s1.roll);
-        System.out.println(s1.name);
+        constructorex O1 = new constructorex(241366 , "Nen");
+        System.out.println("Roll No -> "+O1.rollno);
+        System.out.println("Name -> "+O1.name);
     }
 }
