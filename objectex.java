@@ -16,8 +16,5 @@ public class objectex{
         O1.add(1, 2);
         O1.add(2, 3, 4);
         O1.add(1, 2, 3, 4);
-
-
     }
 }
-
