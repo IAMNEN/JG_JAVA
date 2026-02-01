@@ -15,7 +15,7 @@ public class staticblock {
     }
     public static void main(String[] args) {
         System.out.println("in main");
-        staticblock obj = new staticblock();
+        staticblock obj = new staticblock(100);
         System.out.println("---------------------------");
         staticblock obj2 = new staticblock();
     }
