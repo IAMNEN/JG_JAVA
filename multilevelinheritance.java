@@ -28,14 +28,14 @@ class student01 extends student0 {
 }
 
 class manager extends student01 {
-    int mamber;
+    int member;
     manager(String n , int a, int r , int m){
         super(n , a , r);
-        mamber = m;
+        member = m;
     }
     void display01(){
         display0();
-        System.out.println("Mamber -> "+mamber);
+        System.out.println("Member -> "+member);
     }
 }
 
