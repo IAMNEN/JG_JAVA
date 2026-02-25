@@ -1,4 +1,5 @@
 public class exceptionhandle {
+    //Arithmetic Exception
     public static void main(String[] args) {
         try{
             System.out.println("Hello");
